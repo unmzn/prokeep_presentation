@@ -19,10 +19,10 @@ seed:
   mix run priv/repo/seeds.exs
 
 marp:
-  npx @marp-team/marp-cli@latest --html -w slides.md
+  npx @marp-team/marp-cli@latest --html -w hackathon_slides.md
 
 open_marp:
-  open slides.html
+  open hackathon_slides.html
 
 schema_gen:
   just --justfile "/Users/alexanderwebb/schema_spy/Justfile"
